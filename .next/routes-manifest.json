@@ -66,6 +66,7 @@
       "regex": "^(?:/(.*))\\.png(?:/)?$"
     }
   ],
+  "onMatchHeaders": [],
   "rewrites": {
     "beforeFiles": [],
     "afterFiles": [],
