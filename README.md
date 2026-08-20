@@ -83,7 +83,3 @@ docker compose build     # build the container
 docker compose up -d     # run the container
 docker compose down      # stop the container
 ```
-
-## license
-
-MIT
