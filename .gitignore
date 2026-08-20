@@ -1,0 +1,105 @@
+```
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Build outputs
+dist/
+build/
+*.js.map
+
+# Editors
+.vscode/
+.idea/
+
+# Python (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Package manager cache
+.npm/
+.yarn/
+.pnpm-store/
+
+# Testing
+.nyc_output/
+coverage/
+
+# Distribution / packaging
+.Python
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Gradle
+.gradle/
+build/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# C/C++
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# Go
+*.exe
+*.test
+*.prof
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+
+# Rust
+target/
+
+# Julia
+julia-*/
+
+# Zig
+zig-out/
+```
