@@ -7,7 +7,7 @@ export const RESUME_DATA: ResumeData = {
   locationLink: "https://www.google.com/maps/place/addis",
   about: "FullStack & Flutter Developer building products from the ground up.",
   summary:
-    "Full Stack and Flutter Developer with 1+ years of experience. Building high-performance mobile and web applications.",
+    "Full Stack and Flutter Developer with 2 years of experience. Building high-performance mobile and web applications.",
   avatarUrl: "https://avatars.githubusercontent.com/u/142771187?v=44",
   personalWebsiteUrl: "https://abdulaziiz.dev",
   contact: {
@@ -45,7 +45,7 @@ export const RESUME_DATA: ResumeData = {
       link: "https://techequations.com/",
       badges: ["Onsite", "Mobile", "Cross-Platform", "Flutter", "Dart", "Android"],
       title: "Intermediate Software Developer",
-      start: "2025",
+      start: "2024",
       end: null,
       description:
         "Building a mobile and desktop application.",
@@ -66,9 +66,27 @@ export const RESUME_DATA: ResumeData = {
   ],
   projects: [
     {
+      title: "Savvy Lite",
+      techStack: ["Flutter", "SQLite", "Supabase", "REST API", "Firebase FCM"],
+      description: "Mobile and desktop Flutter client for Savvy Stock — a lightweight ERP for inventory, sales and sync.RABC employee,user,inventory,sales and procurement business app for small to medium businesses.",
+      link: {
+        label: "Savvy Lite(On play store)",
+        href: "https://play.google.com/store/apps/details?id=com.techEquations.savvyLite",
+      },
+    },
+    {
+      title: "Unity Finance Group",
+      techStack: ["Flutter", "Supabase", "PostgreSQL", "REST API",],
+      description: "A mobile-first financial services application built with Flutter, designed to empower cooperative members and external users with transparent, accessible, and cooperative-driven finance tools. UFG enables members to manage savings, request loans, track obligations, and apply for membership — all from a single Android client.",
+      link: {
+        label: "Unity Finance Group",
+        href: "https://github.com/abdee67/ufg",
+      },
+    },
+    {
       title: "URS Beauty",
       techStack: ["Flutter", "Supabase", "Stripe", "Chapa"],
-      description: "Uber but for beauty salon for both genders and childrens(User app)",
+      description: "Customer-facing Flutter app for the UR Beauty platform.This app lets customers discover beauty services, find nearby stylists, book appointments, manage bookings, make card payments, review services, and manage their profile.",
       link: {
         label: "URS Beauty",
         href: "https://github.com/abdee67/URS-beauty",
